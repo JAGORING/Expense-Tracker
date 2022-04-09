@@ -35,7 +35,6 @@ const App = () => {
 
   return (
     <div id='test'>
-      <h1>Let's Get Started!</h1>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
